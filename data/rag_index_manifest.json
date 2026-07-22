@@ -1,0 +1,11 @@
+{
+  "documents": 12,
+  "chunks": 32,
+  "vectors_stored": 32,
+  "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "rerank_model": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+  "vector_dim": 384,
+  "chunk_size": 60,
+  "chunk_overlap": 20,
+  "chroma_path": "/content/chroma_cats"
+}
