@@ -1,0 +1,422 @@
+[
+  {
+    "original_record": {
+      "cat_id": "CAT0006",
+      "name": "Anthony",
+      "breed": "Bengal",
+      "age_months": -1,
+      "weight_kg": "5.59",
+      "is_vaccinated": false,
+      "shelter_id": "SHL05",
+      "intake_date": "2024-12-13",
+      "status": "available"
+    },
+    "rejection_reason": "1 validation error for CatEvent\nage_months\n  Input should be greater than 0 [type=greater_than, input_value=-1, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.13/v/greater_than"
+  },
+  {
+    "original_record": {
+      "cat_id": "CAT0021",
+      "name": "Jeremy",
+      "breed": "Maine Coon",
+      "age_months": -8,
+      "weight_kg": "3.56",
+      "is_vaccinated": true,
+      "shelter_id": "SHL05",
+      "intake_date": "2025-02-17",
+      "status": "available"
+    },
+    "rejection_reason": "1 validation error for CatEvent\nage_months\n  Input should be greater than 0 [type=greater_than, input_value=-8, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.13/v/greater_than"
+  },
+  {
+    "original_record": {
+      "cat_id": "CAT0032",
+      "name": "Megan",
+      "breed": "Siamese",
+      "age_months": -1,
+      "weight_kg": "5.01",
+      "is_vaccinated": true,
+      "shelter_id": "SHL04",
+      "intake_date": "2026-02-08",
+      "status": "pending"
+    },
+    "rejection_reason": "1 validation error for CatEvent\nage_months\n  Input should be greater than 0 [type=greater_than, input_value=-1, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.13/v/greater_than"
+  },
+  {
+    "original_record": {
+      "cat_id": "CAT0037",
+      "name": "Diana",
+      "breed": "Bengal",
+      "age_months": -3,
+      "weight_kg": "7.98",
+      "is_vaccinated": true,
+      "shelter_id": "SHL01",
+      "intake_date": "2025-05-06",
+      "status": "pending"
+    },
+    "rejection_reason": "1 validation error for CatEvent\nage_months\n  Input should be greater than 0 [type=greater_than, input_value=-3, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.13/v/greater_than"
+  },
+  {
+    "original_record": {
+      "cat_id": "CAT0038",
+      "name": "Robin",
+      "breed": "Persian",
+      "age_months": 173,
+      "weight_kg": "unknown",
+      "is_vaccinated": false,
+      "shelter_id": "SHL01",
+      "intake_date": "2025-06-21",
+      "status": "pending"
+    },
+    "rejection_reason": "1 validation error for CatEvent\nweight_kg\n  Value error, weight_kg يجب أن يكون رقم، طلعت القيمة: unknown [type=value_error, input_value='unknown', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error"
+  },
+  {
+    "original_record": {
+      "cat_id": "CAT0047",
+      "name": "Bryan",
+      "breed": "British Shorthair",
+      "age_months": 34,
+      "weight_kg": "6.14",
+      "is_vaccinated": false,
+      "shelter_id": "SHL02",
+      "intake_date": "2025-04-25",
+      "status": "on_vacation"
+    },
+    "rejection_reason": "1 validation error for CatEvent\nstatus\n  String should match pattern '^(available|adopted|pending)$' [type=string_pattern_mismatch, input_value='on_vacation', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_pattern_mismatch"
+  },
+  {
+    "original_record": {
+      "cat_id": null,
+      "name": "Tasha",
+      "breed": "Maine Coon",
+      "age_months": 150,
+      "weight_kg": "5.59",
+      "is_vaccinated": false,
+      "shelter_id": "SHL02",
+      "intake_date": "2026-04-11",
+      "status": "available"
+    },
+    "rejection_reason": "1 validation error for CatEvent\ncat_id\n  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_type"
+  },
+  {
+    "original_record": {
+      "cat_id": "CAT0051",
+      "name": "Erin",
+      "breed": "British Shorthair",
+      "age_months": 144,
+      "weight_kg": "unknown",
+      "is_vaccinated": false,
+      "shelter_id": "SHL05",
+      "intake_date": "2025-08-17",
+      "status": "pending"
+    },
+    "rejection_reason": "1 validation error for CatEvent\nweight_kg\n  Value error, weight_kg يجب أن يكون رقم، طلعت القيمة: unknown [type=value_error, input_value='unknown', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error"
+  },
+  {
+    "original_record": {
+      "cat_id": null,
+      "name": "Kimberly",
+      "breed": "Ragdoll",
+      "age_months": 85,
+      "weight_kg": "6.05",
+      "is_vaccinated": true,
+      "shelter_id": "SHL03",
+      "intake_date": "2025-08-12",
+      "status": "pending"
+    },
+    "rejection_reason": "1 validation error for CatEvent\ncat_id\n  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_type"
+  },
+  {
+    "original_record": {
+      "cat_id": "CAT0072",
+      "name": "Rodney",
+      "breed": "Bengal",
+      "age_months": 171,
+      "weight_kg": "5.45",
+      "is_vaccinated": false,
+      "shelter_id": null,
+      "intake_date": "2024-12-22",
+      "status": "pending"
+    },
+    "rejection_reason": "1 validation error for CatEvent\nshelter_id\n  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_type"
+  },
+  {
+    "original_record": {
+      "cat_id": "CAT0076",
+      "name": "Samuel",
+      "breed": "Siamese",
+      "age_months": 60,
+      "weight_kg": "4.49",
+      "is_vaccinated": true,
+      "shelter_id": "SHL02",
+      "intake_date": "2025-08-03",
+      "status": "on_vacation"
+    },
+    "rejection_reason": "1 validation error for CatEvent\nstatus\n  String should match pattern '^(available|adopted|pending)$' [type=string_pattern_mismatch, input_value='on_vacation', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_pattern_mismatch"
+  },
+  {
+    "original_record": {
+      "cat_id": "CAT0100",
+      "name": "Tanya",
+      "breed": "Ragdoll",
+      "age_months": 105,
+      "weight_kg": "5.18",
+      "is_vaccinated": true,
+      "shelter_id": "SHL04",
+      "intake_date": "2026-05-29",
+      "status": "on_vacation"
+    },
+    "rejection_reason": "1 validation error for CatEvent\nstatus\n  String should match pattern '^(available|adopted|pending)$' [type=string_pattern_mismatch, input_value='on_vacation', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_pattern_mismatch"
+  },
+  {
+    "original_record": {
+      "cat_id": "CAT0104",
+      "name": "Nicholas",
+      "breed": "Siamese",
+      "age_months": 81,
+      "weight_kg": "2.78",
+      "is_vaccinated": true,
+      "shelter_id": "SHL02",
+      "intake_date": "2026-07-11",
+      "status": "on_vacation"
+    },
+    "rejection_reason": "1 validation error for CatEvent\nstatus\n  String should match pattern '^(available|adopted|pending)$' [type=string_pattern_mismatch, input_value='on_vacation', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_pattern_mismatch"
+  },
+  {
+    "original_record": {
+      "cat_id": "CAT0110",
+      "name": "Tanya",
+      "breed": "Ragdoll",
+      "age_months": -4,
+      "weight_kg": "2.35",
+      "is_vaccinated": true,
+      "shelter_id": "SHL05",
+      "intake_date": "2025-09-17",
+      "status": "adopted"
+    },
+    "rejection_reason": "1 validation error for CatEvent\nage_months\n  Input should be greater than 0 [type=greater_than, input_value=-4, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.13/v/greater_than"
+  },
+  {
+    "original_record": {
+      "cat_id": "CAT0111",
+      "name": "Amy",
+      "breed": "British Shorthair",
+      "age_months": 107,
+      "weight_kg": "5.94",
+      "is_vaccinated": true,
+      "shelter_id": "SHL05",
+      "intake_date": "2026-01-18",
+      "status": "on_vacation"
+    },
+    "rejection_reason": "1 validation error for CatEvent\nstatus\n  String should match pattern '^(available|adopted|pending)$' [type=string_pattern_mismatch, input_value='on_vacation', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_pattern_mismatch"
+  },
+  {
+    "original_record": {
+      "cat_id": "CAT0113",
+      "name": "Wesley",
+      "breed": "Ragdoll",
+      "age_months": -3,
+      "weight_kg": "8.16",
+      "is_vaccinated": true,
+      "shelter_id": "SHL02",
+      "intake_date": "2026-04-05",
+      "status": "adopted"
+    },
+    "rejection_reason": "1 validation error for CatEvent\nage_months\n  Input should be greater than 0 [type=greater_than, input_value=-3, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.13/v/greater_than"
+  },
+  {
+    "original_record": {
+      "cat_id": "CAT0122",
+      "name": "James",
+      "breed": "British Shorthair",
+      "age_months": 45,
+      "weight_kg": "5.06",
+      "is_vaccinated": false,
+      "shelter_id": null,
+      "intake_date": "2025-12-26",
+      "status": "available"
+    },
+    "rejection_reason": "1 validation error for CatEvent\nshelter_id\n  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_type"
+  },
+  {
+    "original_record": {
+      "cat_id": "CAT0134",
+      "name": "Destiny",
+      "breed": "Siamese",
+      "age_months": 154,
+      "weight_kg": "5.3",
+      "is_vaccinated": true,
+      "shelter_id": "SHL01",
+      "intake_date": "2024-07-26",
+      "status": "on_vacation"
+    },
+    "rejection_reason": "1 validation error for CatEvent\nstatus\n  String should match pattern '^(available|adopted|pending)$' [type=string_pattern_mismatch, input_value='on_vacation', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_pattern_mismatch"
+  },
+  {
+    "original_record": {
+      "cat_id": "CAT0140",
+      "name": "Jennifer",
+      "breed": "Sphynx",
+      "age_months": 85,
+      "weight_kg": "7.65",
+      "is_vaccinated": false,
+      "shelter_id": "SHL01",
+      "intake_date": "2024-12-16",
+      "status": "on_vacation"
+    },
+    "rejection_reason": "1 validation error for CatEvent\nstatus\n  String should match pattern '^(available|adopted|pending)$' [type=string_pattern_mismatch, input_value='on_vacation', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_pattern_mismatch"
+  },
+  {
+    "original_record": {
+      "cat_id": null,
+      "name": "Cynthia",
+      "breed": "Siamese",
+      "age_months": 105,
+      "weight_kg": "7.66",
+      "is_vaccinated": true,
+      "shelter_id": "SHL01",
+      "intake_date": "2025-01-29",
+      "status": "adopted"
+    },
+    "rejection_reason": "1 validation error for CatEvent\ncat_id\n  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_type"
+  },
+  {
+    "original_record": {
+      "cat_id": null,
+      "name": "John",
+      "breed": "Ragdoll",
+      "age_months": 166,
+      "weight_kg": "2.26",
+      "is_vaccinated": false,
+      "shelter_id": "SHL01",
+      "intake_date": "2024-10-04",
+      "status": "pending"
+    },
+    "rejection_reason": "1 validation error for CatEvent\ncat_id\n  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_type"
+  },
+  {
+    "original_record": {
+      "cat_id": "CAT0158",
+      "name": "Richard",
+      "breed": "Sphynx",
+      "age_months": 94,
+      "weight_kg": "5.45",
+      "is_vaccinated": false,
+      "shelter_id": "SHL02",
+      "intake_date": "2025-10-17",
+      "status": "on_vacation"
+    },
+    "rejection_reason": "1 validation error for CatEvent\nstatus\n  String should match pattern '^(available|adopted|pending)$' [type=string_pattern_mismatch, input_value='on_vacation', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_pattern_mismatch"
+  },
+  {
+    "original_record": {
+      "cat_id": null,
+      "name": "Lisa",
+      "breed": "Bengal",
+      "age_months": 4,
+      "weight_kg": "3.72",
+      "is_vaccinated": true,
+      "shelter_id": "SHL04",
+      "intake_date": "2026-04-26",
+      "status": "adopted"
+    },
+    "rejection_reason": "1 validation error for CatEvent\ncat_id\n  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_type"
+  },
+  {
+    "original_record": {
+      "cat_id": "CAT0163",
+      "name": "Martin",
+      "breed": "Sphynx",
+      "age_months": 84,
+      "weight_kg": "7.95",
+      "is_vaccinated": true,
+      "shelter_id": "SHL01",
+      "intake_date": "2026-06-01",
+      "status": "on_vacation"
+    },
+    "rejection_reason": "1 validation error for CatEvent\nstatus\n  String should match pattern '^(available|adopted|pending)$' [type=string_pattern_mismatch, input_value='on_vacation', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_pattern_mismatch"
+  },
+  {
+    "original_record": {
+      "cat_id": "CAT0175",
+      "name": "Tina",
+      "breed": "British Shorthair",
+      "age_months": -3,
+      "weight_kg": "5.83",
+      "is_vaccinated": true,
+      "shelter_id": "SHL02",
+      "intake_date": "2025-08-16",
+      "status": "adopted"
+    },
+    "rejection_reason": "1 validation error for CatEvent\nage_months\n  Input should be greater than 0 [type=greater_than, input_value=-3, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.13/v/greater_than"
+  },
+  {
+    "original_record": {
+      "cat_id": "CAT0179",
+      "name": "Daniel",
+      "breed": "Ragdoll",
+      "age_months": 114,
+      "weight_kg": "unknown",
+      "is_vaccinated": true,
+      "shelter_id": "SHL03",
+      "intake_date": "2025-06-03",
+      "status": "pending"
+    },
+    "rejection_reason": "1 validation error for CatEvent\nweight_kg\n  Value error, weight_kg يجب أن يكون رقم، طلعت القيمة: unknown [type=value_error, input_value='unknown', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error"
+  },
+  {
+    "original_record": {
+      "cat_id": "CAT0180",
+      "name": "Jessica",
+      "breed": "Maine Coon",
+      "age_months": 160,
+      "weight_kg": "6.11",
+      "is_vaccinated": false,
+      "shelter_id": null,
+      "intake_date": "2025-03-07",
+      "status": "pending"
+    },
+    "rejection_reason": "1 validation error for CatEvent\nshelter_id\n  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_type"
+  },
+  {
+    "original_record": {
+      "cat_id": "CAT0185",
+      "name": "Amanda",
+      "breed": "Ragdoll",
+      "age_months": 96,
+      "weight_kg": "7.28",
+      "is_vaccinated": true,
+      "shelter_id": null,
+      "intake_date": "2025-12-28",
+      "status": "pending"
+    },
+    "rejection_reason": "1 validation error for CatEvent\nshelter_id\n  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_type"
+  },
+  {
+    "original_record": {
+      "cat_id": "CAT0191",
+      "name": "Kyle",
+      "breed": "British Shorthair",
+      "age_months": -2,
+      "weight_kg": "5.68",
+      "is_vaccinated": false,
+      "shelter_id": "SHL01",
+      "intake_date": "2025-05-15",
+      "status": "available"
+    },
+    "rejection_reason": "1 validation error for CatEvent\nage_months\n  Input should be greater than 0 [type=greater_than, input_value=-2, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.13/v/greater_than"
+  },
+  {
+    "original_record": {
+      "cat_id": "CAT0196",
+      "name": "Kevin",
+      "breed": "Ragdoll",
+      "age_months": 174,
+      "weight_kg": "5.86",
+      "is_vaccinated": false,
+      "shelter_id": "SHL01",
+      "intake_date": "2025-08-25",
+      "status": "on_vacation"
+    },
+    "rejection_reason": "1 validation error for CatEvent\nstatus\n  String should match pattern '^(available|adopted|pending)$' [type=string_pattern_mismatch, input_value='on_vacation', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_pattern_mismatch"
+  }
+]
