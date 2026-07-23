@@ -1,201 +1,201 @@
 cat_id,name,breed,age_months,weight_kg,is_vaccinated,shelter_id,intake_date,status
-CAT0000,Danielle,Persian,71,3.59,true,SHL01,2024-08-08,pending
-CAT0001,Joshua,Sphynx,23,5.84,true,SHL01,2024-12-31,available
-CAT0002,Jill,Sphynx,155,2.17,true,SHL05,2025-11-27,adopted
-CAT0003,Patricia,Sphynx,72,7.26,true,SHL02,2024-09-22,pending
-CAT0004,Robert,Maine Coon,40,3.4,false,SHL01,2024-08-11,available
-CAT0005,Jeffery,Maine Coon,89,5.92,true,SHL04,2025-07-25,pending
-CAT0006,Anthony,Bengal,-1,5.59,false,SHL05,2024-12-13,available
-CAT0007,Debra,British Shorthair,75,8.4,true,SHL01,2025-08-23,adopted
-CAT0008,Jeffrey,Ragdoll,94,3.06,false,SHL02,2025-09-24,pending
-CAT0009,Lisa,Ragdoll,166,2.46,true,SHL05,2024-07-25,pending
-CAT0010,Linda,Bengal,98,3.75,true,SHL03,2025-12-13,available
-CAT0011,Matthew,Persian,81,4.61,true,SHL02,2024-11-11,pending
-CAT0012,Susan,Maine Coon,55,6.26,false,SHL04,2025-03-24,available
-CAT0013,Christopher,Siamese,144,5.5,false,SHL05,2024-09-29,adopted
-CAT0014,Melanie,Siamese,131,5.21,true,SHL01,2025-10-05,available
-CAT0015,Lindsay,British Shorthair,175,4.74,true,SHL04,2026-01-05,adopted
-CAT0016,Amanda,Bengal,136,3.63,true,SHL01,2026-07-02,pending
-CAT0017,Nicholas,British Shorthair,69,7.0,false,SHL01,2025-08-28,adopted
-CAT0018,Maria,Bengal,1,8.2,false,SHL05,2025-10-16,available
-CAT0019,Michelle,Persian,161,3.94,true,SHL02,2025-09-16,adopted
-CAT0020,Janet,Sphynx,136,7.97,false,SHL04,2024-08-23,available
-CAT0021,Jeremy,Maine Coon,-8,3.56,true,SHL05,2025-02-17,available
-CAT0022,Christopher,British Shorthair,137,6.98,true,SHL04,2025-01-07,pending
-CAT0023,Craig,Sphynx,156,4.75,true,SHL05,2025-02-09,pending
-CAT0024,Cynthia,Ragdoll,80,4.59,false,SHL04,2025-04-13,pending
-CAT0025,Mitchell,Siamese,58,2.42,true,SHL05,2024-12-21,pending
-CAT0026,Joseph,Siamese,2,2.46,true,SHL02,2026-06-05,available
-CAT0027,Deborah,British Shorthair,85,2.46,true,SHL03,2025-10-09,pending
-CAT0028,George,Sphynx,34,6.7,false,SHL02,2026-01-04,adopted
-CAT0029,Frank,Siamese,25,2.63,false,SHL03,2025-04-24,adopted
-CAT0030,Veronica,British Shorthair,14,6.38,true,SHL01,2025-10-31,adopted
-CAT0031,Angela,British Shorthair,28,3.62,true,SHL05,2025-12-03,adopted
-CAT0032,Megan,Siamese,-1,5.01,true,SHL04,2026-02-08,pending
-CAT0033,Jeremy,Sphynx,4,8.3,true,SHL02,2024-08-13,adopted
-CAT0034,Leslie,Siamese,103,7.87,true,SHL04,2025-02-01,available
-CAT0035,Jason,Maine Coon,117,3.85,false,SHL02,2026-06-10,available
-CAT0036,Nancy,Persian,149,6.78,true,SHL03,2025-03-08,available
-CAT0037,Diana,Bengal,-3,7.98,true,SHL01,2025-05-06,pending
-CAT0038,Robin,Persian,173,unknown,false,SHL01,2025-06-21,pending
-CAT0039,Joseph,Persian,159,2.53,false,SHL03,2025-01-17,available
-CAT0040,Anna,Maine Coon,62,3.73,true,SHL03,2025-01-29,adopted
-CAT0041,Brenda,British Shorthair,19,2.06,true,SHL01,2026-05-08,pending
-CAT0042,Reginald,Maine Coon,34,8.07,true,SHL02,2024-12-28,adopted
-CAT0043,Whitney,Bengal,140,6.57,true,SHL05,2025-07-28,adopted
-CAT0044,Christopher,Persian,35,3.72,true,SHL05,2024-08-24,available
-CAT0045,Daniel,Sphynx,54,6.66,true,SHL03,2025-10-22,pending
-CAT0046,Laura,British Shorthair,14,2.6,false,SHL03,2025-05-25,available
-CAT0047,Bryan,British Shorthair,34,6.14,false,SHL02,2025-04-25,on_vacation
-CAT0048,Wendy,Bengal,144,2.06,true,SHL02,2025-08-11,pending
-,Tasha,Maine Coon,150,5.59,false,SHL02,2026-04-11,available
-CAT0050,Alexander,British Shorthair,11,7.84,true,SHL02,2025-12-29,pending
-CAT0051,Erin,British Shorthair,144,unknown,false,SHL05,2025-08-17,pending
-CAT0052,Joseph,Siamese,42,8.35,true,SHL04,2025-11-01,available
-CAT0053,Daniel,Maine Coon,106,7.21,true,SHL03,2025-06-03,available
-CAT0054,Shawn,Persian,98,7.67,false,SHL02,2026-06-18,available
-CAT0055,Nancy,Bengal,90,3.98,true,SHL02,2025-01-29,available
-CAT0056,Vincent,Bengal,85,3.81,true,SHL03,2024-11-28,adopted
-CAT0057,Rita,Bengal,174,8.38,false,SHL01,2026-04-18,available
-CAT0058,Kenneth,Maine Coon,46,5.77,false,SHL01,2025-10-31,available
-CAT0059,Chelsea,Maine Coon,81,4.84,true,SHL04,2024-11-09,pending
-CAT0060,Kathryn,Persian,112,2.01,true,SHL03,2025-08-19,adopted
-,Kimberly,Ragdoll,85,6.05,true,SHL03,2025-08-12,pending
-CAT0062,Aaron,Maine Coon,104,6.53,true,SHL02,2025-03-14,adopted
-CAT0063,Andrew,Bengal,174,6.86,true,SHL05,2026-05-31,pending
-CAT0064,Natasha,Sphynx,1,3.98,true,SHL04,2026-03-20,pending
-CAT0065,Kyle,Maine Coon,120,4.87,true,SHL05,2024-09-01,adopted
-CAT0066,Natalie,British Shorthair,44,6.28,false,SHL05,2026-06-13,pending
-CAT0067,Christopher,Maine Coon,24,7.32,true,SHL03,2025-07-11,available
-CAT0068,Chad,Siamese,7,2.3,false,SHL05,2026-01-28,available
-CAT0069,Katie,Ragdoll,148,3.26,false,SHL04,2024-10-22,adopted
-CAT0070,Thomas,Ragdoll,177,2.04,true,SHL04,2025-08-26,available
-CAT0071,Joseph,Ragdoll,133,5.02,true,SHL01,2026-04-19,adopted
-CAT0072,Rodney,Bengal,171,5.45,false,,2024-12-22,pending
-CAT0073,Amber,Sphynx,115,7.83,false,SHL04,2026-01-05,adopted
-CAT0074,James,British Shorthair,164,3.8,false,SHL02,2025-03-05,adopted
-CAT0075,Wanda,Ragdoll,74,3.52,false,SHL03,2025-11-08,pending
-CAT0076,Samuel,Siamese,60,4.49,true,SHL02,2025-08-03,on_vacation
-CAT0077,David,Sphynx,120,4.7,true,SHL04,2025-01-01,adopted
-CAT0078,Matthew,Sphynx,179,2.13,false,SHL04,2025-09-24,available
-CAT0079,Jerry,Maine Coon,100,7.55,false,SHL05,2024-12-28,pending
-CAT0080,Chad,British Shorthair,155,7.84,false,SHL02,2025-10-25,adopted
-CAT0081,Jeremy,Persian,100,4.18,false,SHL02,2026-05-13,adopted
-CAT0082,Michele,Sphynx,137,2.18,false,SHL05,2024-09-10,pending
-CAT0083,John,Persian,165,4.79,false,SHL02,2025-11-22,available
-CAT0084,Jason,Maine Coon,55,4.96,false,SHL04,2024-10-25,adopted
-CAT0085,Selena,British Shorthair,108,3.64,true,SHL04,2025-09-11,available
-CAT0086,Thomas,Persian,90,3.46,true,SHL01,2026-02-14,available
-CAT0087,Lindsey,Siamese,6,6.04,true,SHL02,2024-12-07,adopted
-CAT0088,Collin,Sphynx,56,5.02,false,SHL03,2025-06-01,available
-CAT0089,Rodney,Ragdoll,30,7.06,true,SHL03,2025-06-27,available
-CAT0090,Jessica,Maine Coon,148,6.4,false,SHL04,2025-11-25,pending
-CAT0091,Tracey,Sphynx,177,7.4,true,SHL01,2024-09-30,pending
-CAT0092,Richard,British Shorthair,176,5.9,true,SHL05,2025-03-26,available
-CAT0093,Michelle,Bengal,170,4.41,false,SHL01,2025-01-18,adopted
-CAT0094,James,Persian,111,8.25,false,SHL02,2025-06-13,adopted
-CAT0095,Robert,Sphynx,167,3.76,false,SHL04,2025-02-09,adopted
-CAT0096,John,Sphynx,69,4.09,true,SHL01,2026-05-26,adopted
-CAT0097,Scott,Siamese,119,5.7,false,SHL03,2026-04-11,available
-CAT0098,Andrea,Maine Coon,47,5.17,false,SHL03,2024-08-26,adopted
-CAT0099,Yvette,Sphynx,180,7.72,true,SHL05,2026-03-24,available
-CAT0100,Tanya,Ragdoll,105,5.18,true,SHL04,2026-05-29,on_vacation
-CAT0101,Melinda,Persian,24,3.91,false,SHL02,2024-11-19,adopted
-CAT0102,Todd,Maine Coon,122,5.6,false,SHL04,2024-12-24,pending
-CAT0103,Richard,Maine Coon,180,4.95,false,SHL03,2024-09-01,available
-CAT0104,Nicholas,Siamese,81,2.78,true,SHL02,2026-07-11,on_vacation
-CAT0105,Joseph,Sphynx,135,5.88,true,SHL02,2026-02-14,adopted
-CAT0106,Spencer,Siamese,78,2.09,true,SHL03,2025-05-26,available
-CAT0107,Susan,Sphynx,75,6.53,true,SHL04,2026-07-18,available
-CAT0108,Angela,Sphynx,73,5.05,false,SHL03,2025-12-28,available
-CAT0109,Eric,Maine Coon,123,2.74,true,SHL04,2025-02-22,adopted
-CAT0110,Tanya,Ragdoll,-4,2.35,true,SHL05,2025-09-17,adopted
-CAT0111,Amy,British Shorthair,107,5.94,true,SHL05,2026-01-18,on_vacation
-CAT0112,Brian,Maine Coon,151,8.44,false,SHL05,2025-09-21,pending
-CAT0113,Wesley,Ragdoll,-3,8.16,true,SHL02,2026-04-05,adopted
-CAT0114,Eric,Sphynx,20,3.02,false,SHL04,2026-06-23,pending
-CAT0115,Christopher,Maine Coon,9,3.5,false,SHL04,2024-12-03,available
-CAT0116,Brooke,Maine Coon,161,5.83,true,SHL04,2025-11-26,available
-CAT0117,Joe,Ragdoll,39,7.9,true,SHL01,2024-10-16,available
-CAT0118,Pamela,Maine Coon,153,6.87,false,SHL04,2025-01-16,available
-CAT0119,Brooke,Maine Coon,180,4.62,false,SHL05,2025-10-16,pending
-CAT0120,Robert,Persian,154,2.26,false,SHL03,2025-09-20,pending
-CAT0121,Alexandra,Persian,59,8.25,true,SHL03,2026-06-04,pending
-CAT0122,James,British Shorthair,45,5.06,false,,2025-12-26,available
-CAT0123,John,British Shorthair,126,8.3,false,SHL03,2025-05-06,adopted
-CAT0124,Emily,Ragdoll,27,7.58,false,SHL04,2025-02-25,pending
-CAT0125,Leslie,Ragdoll,103,7.29,true,SHL04,2026-01-21,available
-CAT0126,Charles,Maine Coon,30,8.31,false,SHL05,2025-06-21,available
-CAT0127,Yolanda,Sphynx,119,4.69,true,SHL05,2026-07-19,adopted
-CAT0128,Charles,Bengal,161,4.87,true,SHL02,2024-12-23,adopted
-CAT0129,Joseph,Maine Coon,113,7.73,false,SHL01,2026-06-03,available
-CAT0130,Nicole,Sphynx,62,6.61,false,SHL05,2026-04-24,available
-CAT0131,Mike,Persian,58,8.45,true,SHL04,2024-11-13,available
-CAT0132,Martha,Siamese,128,8.06,false,SHL05,2025-12-17,pending
-CAT0133,Cheryl,British Shorthair,124,8.37,true,SHL04,2026-07-12,pending
-CAT0134,Destiny,Siamese,154,5.3,true,SHL01,2024-07-26,on_vacation
-CAT0135,Lisa,British Shorthair,130,3.74,true,SHL03,2025-02-24,pending
-CAT0136,Elizabeth,Sphynx,149,8.49,false,SHL02,2026-06-07,adopted
-CAT0137,Dennis,Maine Coon,86,5.59,false,SHL04,2024-10-13,adopted
-CAT0138,Daniel,Ragdoll,62,5.72,true,SHL04,2025-08-29,available
-CAT0139,Joseph,Bengal,98,4.51,true,SHL04,2025-10-06,available
-CAT0140,Jennifer,Sphynx,85,7.65,false,SHL01,2024-12-16,on_vacation
-,Cynthia,Siamese,105,7.66,true,SHL01,2025-01-29,adopted
-CAT0142,Tracy,Ragdoll,102,6.22,false,SHL05,2026-05-13,adopted
-CAT0143,Meghan,Ragdoll,125,7.67,true,SHL05,2024-09-26,available
-CAT0144,Rodney,Ragdoll,74,8.48,true,SHL04,2025-02-08,available
-CAT0145,Adam,Ragdoll,26,4.88,false,SHL01,2026-02-04,available
-CAT0146,Dana,Persian,76,4.33,false,SHL02,2025-01-28,available
-CAT0147,Joyce,Sphynx,175,7.15,true,SHL02,2025-08-28,available
-CAT0148,Ronald,Bengal,159,6.44,false,SHL05,2024-07-28,available
-CAT0149,Charles,Ragdoll,66,4.99,true,SHL04,2026-04-27,adopted
-CAT0150,Rebecca,Siamese,19,4.87,false,SHL05,2025-08-23,adopted
-CAT0151,Mary,Bengal,177,3.63,false,SHL02,2025-09-19,adopted
-CAT0152,Earl,Persian,61,4.48,false,SHL05,2024-10-22,adopted
-CAT0153,Kyle,Maine Coon,6,8.36,false,SHL03,2026-05-09,available
-CAT0154,Laura,Ragdoll,13,7.92,false,SHL03,2026-04-11,available
-CAT0155,Rachel,Maine Coon,57,6.14,false,SHL02,2024-12-21,pending
-,John,Ragdoll,166,2.26,false,SHL01,2024-10-04,pending
-CAT0157,Kimberly,Persian,76,4.12,false,SHL02,2026-04-28,available
-CAT0158,Richard,Sphynx,94,5.45,false,SHL02,2025-10-17,on_vacation
-CAT0159,Eric,Maine Coon,87,7.23,false,SHL01,2026-05-31,available
-CAT0160,Michelle,Siamese,174,6.71,false,SHL05,2026-07-04,adopted
-,Lisa,Bengal,4,3.72,true,SHL04,2026-04-26,adopted
-CAT0162,Angel,British Shorthair,164,8.11,true,SHL02,2026-01-10,adopted
-CAT0163,Martin,Sphynx,84,7.95,true,SHL01,2026-06-01,on_vacation
-CAT0164,Leah,Maine Coon,167,4.65,true,SHL01,2026-04-13,available
-CAT0165,Lisa,Bengal,30,2.63,true,SHL04,2025-02-01,adopted
-CAT0166,Kristin,Ragdoll,179,8.15,false,SHL05,2024-10-08,pending
-CAT0167,Monica,Bengal,168,2.64,false,SHL05,2026-04-09,adopted
-CAT0168,Jeffrey,Maine Coon,9,6.49,true,SHL04,2026-03-09,adopted
-CAT0169,Steven,British Shorthair,93,2.65,false,SHL05,2025-03-01,pending
-CAT0170,Laura,Bengal,71,3.23,true,SHL04,2025-01-03,available
-CAT0171,Andrew,Ragdoll,164,5.88,true,SHL01,2024-12-09,adopted
-CAT0172,Mark,Siamese,145,3.33,true,SHL05,2026-04-13,available
-CAT0173,Tammy,Siamese,85,7.03,true,SHL03,2025-02-10,available
-CAT0174,Darlene,Sphynx,65,7.19,true,SHL01,2025-05-09,available
-CAT0175,Tina,British Shorthair,-3,5.83,true,SHL02,2025-08-16,adopted
-CAT0176,Sheila,Sphynx,30,6.85,false,SHL04,2024-10-13,adopted
-CAT0177,Tara,Persian,116,5.27,true,SHL05,2024-11-28,adopted
-CAT0178,Sydney,Persian,16,8.49,false,SHL04,2025-01-31,pending
-CAT0179,Daniel,Ragdoll,114,unknown,true,SHL03,2025-06-03,pending
-CAT0180,Jessica,Maine Coon,160,6.11,false,,2025-03-07,pending
-CAT0181,Catherine,Sphynx,155,4.8,true,SHL05,2025-07-29,pending
-CAT0182,Paul,Bengal,116,7.77,false,SHL03,2025-09-15,adopted
-CAT0183,Jonathan,Ragdoll,25,4.03,false,SHL03,2025-12-21,adopted
-CAT0184,Aaron,Ragdoll,122,2.44,true,SHL01,2026-05-28,adopted
-CAT0185,Amanda,Ragdoll,96,7.28,true,,2025-12-28,pending
-CAT0186,Judy,Persian,106,4.3,false,SHL01,2025-11-23,adopted
-CAT0187,Michael,Maine Coon,27,5.76,true,SHL02,2024-09-10,pending
-CAT0188,Elizabeth,British Shorthair,28,4.28,false,SHL01,2025-03-19,adopted
-CAT0189,Lee,British Shorthair,110,7.49,true,SHL05,2026-04-01,pending
-CAT0190,Jennifer,Maine Coon,8,3.17,false,SHL03,2025-02-25,adopted
-CAT0191,Kyle,British Shorthair,-2,5.68,false,SHL01,2025-05-15,available
-CAT0192,Richard,Siamese,97,4.73,false,SHL02,2025-02-22,adopted
-CAT0193,David,Maine Coon,146,5.88,true,SHL02,2025-05-24,available
-CAT0194,Shelby,Persian,173,2.53,false,SHL04,2025-11-28,adopted
-CAT0195,Raven,Bengal,70,3.4,true,SHL03,2025-10-13,adopted
-CAT0196,Kevin,Ragdoll,174,5.86,false,SHL01,2025-08-25,on_vacation
-CAT0197,Aaron,Persian,2,3.33,true,SHL02,2025-02-15,adopted
-CAT0198,Russell,Persian,2,5.23,false,SHL02,2025-09-17,available
-CAT0199,Diana,Ragdoll,59,5.25,false,SHL01,2025-06-25,adopted
+CAT0000,Danielle,Persian,71,3.59,true,SHL01,2024-08-09,pending
+CAT0001,Joshua,Sphynx,23,5.84,true,SHL01,2025-01-01,available
+CAT0002,Jill,Sphynx,155,2.17,true,SHL05,2025-11-28,adopted
+CAT0003,Patricia,Sphynx,72,7.26,true,SHL02,2024-09-23,pending
+CAT0004,Robert,Maine Coon,40,3.4,false,SHL01,2024-08-12,available
+CAT0005,Jeffery,Maine Coon,89,5.92,true,SHL04,2025-07-26,pending
+CAT0006,Anthony,Bengal,-1,5.59,false,SHL05,2024-12-14,available
+CAT0007,Debra,British Shorthair,75,8.4,true,SHL01,2025-08-24,adopted
+CAT0008,Jeffrey,Ragdoll,94,3.06,false,SHL02,2025-09-25,pending
+CAT0009,Lisa,Ragdoll,166,2.46,true,SHL05,2024-07-26,pending
+CAT0010,Linda,Bengal,98,3.75,true,SHL03,2025-12-14,available
+CAT0011,Matthew,Persian,81,4.61,true,SHL02,2024-11-12,pending
+CAT0012,Susan,Maine Coon,55,6.26,false,SHL04,2025-03-25,available
+CAT0013,Christopher,Siamese,144,5.5,false,SHL05,2024-09-30,adopted
+CAT0014,Melanie,Siamese,131,5.21,true,SHL01,2025-10-06,available
+CAT0015,Lindsay,British Shorthair,175,4.74,true,SHL04,2026-01-06,adopted
+CAT0016,Amanda,Bengal,136,3.63,true,SHL01,2026-07-03,pending
+CAT0017,Nicholas,British Shorthair,69,7.0,false,SHL01,2025-08-29,adopted
+CAT0018,Maria,Bengal,1,8.2,false,SHL05,2025-10-17,available
+CAT0019,Michelle,Persian,161,3.94,true,SHL02,2025-09-17,adopted
+CAT0020,Janet,Sphynx,136,7.97,false,SHL04,2024-08-24,available
+CAT0021,Jeremy,Maine Coon,-8,3.56,true,SHL05,2025-02-18,available
+CAT0022,Christopher,British Shorthair,137,6.98,true,SHL04,2025-01-08,pending
+CAT0023,Craig,Sphynx,156,4.75,true,SHL05,2025-02-10,pending
+CAT0024,Cynthia,Ragdoll,80,4.59,false,SHL04,2025-04-14,pending
+CAT0025,Mitchell,Siamese,58,2.42,true,SHL05,2024-12-22,pending
+CAT0026,Joseph,Siamese,2,2.46,true,SHL02,2026-06-06,available
+CAT0027,Deborah,British Shorthair,85,2.46,true,SHL03,2025-10-10,pending
+CAT0028,George,Sphynx,34,6.7,false,SHL02,2026-01-05,adopted
+CAT0029,Frank,Siamese,25,2.63,false,SHL03,2025-04-25,adopted
+CAT0030,Veronica,British Shorthair,14,6.38,true,SHL01,2025-11-01,adopted
+CAT0031,Angela,British Shorthair,28,3.62,true,SHL05,2025-12-04,adopted
+CAT0032,Megan,Siamese,-1,5.01,true,SHL04,2026-02-09,pending
+CAT0033,Jeremy,Sphynx,4,8.3,true,SHL02,2024-08-14,adopted
+CAT0034,Leslie,Siamese,103,7.87,true,SHL04,2025-02-02,available
+CAT0035,Jason,Maine Coon,117,3.85,false,SHL02,2026-06-11,available
+CAT0036,Nancy,Persian,149,6.78,true,SHL03,2025-03-09,available
+CAT0037,Diana,Bengal,-3,7.98,true,SHL01,2025-05-07,pending
+CAT0038,Robin,Persian,173,unknown,false,SHL01,2025-06-22,pending
+CAT0039,Joseph,Persian,159,2.53,false,SHL03,2025-01-18,available
+CAT0040,Anna,Maine Coon,62,3.73,true,SHL03,2025-01-30,adopted
+CAT0041,Brenda,British Shorthair,19,2.06,true,SHL01,2026-05-09,pending
+CAT0042,Reginald,Maine Coon,34,8.07,true,SHL02,2024-12-29,adopted
+CAT0043,Whitney,Bengal,140,6.57,true,SHL05,2025-07-29,adopted
+CAT0044,Christopher,Persian,35,3.72,true,SHL05,2024-08-25,available
+CAT0045,Daniel,Sphynx,54,6.66,true,SHL03,2025-10-23,pending
+CAT0046,Laura,British Shorthair,14,2.6,false,SHL03,2025-05-26,available
+CAT0047,Bryan,British Shorthair,34,6.14,false,SHL02,2025-04-26,on_vacation
+CAT0048,Wendy,Bengal,144,2.06,true,SHL02,2025-08-12,pending
+,Tasha,Maine Coon,150,5.59,false,SHL02,2026-04-12,available
+CAT0050,Alexander,British Shorthair,11,7.84,true,SHL02,2025-12-30,pending
+CAT0051,Erin,British Shorthair,144,unknown,false,SHL05,2025-08-18,pending
+CAT0052,Joseph,Siamese,42,8.35,true,SHL04,2025-11-02,available
+CAT0053,Daniel,Maine Coon,106,7.21,true,SHL03,2025-06-04,available
+CAT0054,Shawn,Persian,98,7.67,false,SHL02,2026-06-19,available
+CAT0055,Nancy,Bengal,90,3.98,true,SHL02,2025-01-30,available
+CAT0056,Vincent,Bengal,85,3.81,true,SHL03,2024-11-29,adopted
+CAT0057,Rita,Bengal,174,8.38,false,SHL01,2026-04-19,available
+CAT0058,Kenneth,Maine Coon,46,5.77,false,SHL01,2025-11-01,available
+CAT0059,Chelsea,Maine Coon,81,4.84,true,SHL04,2024-11-10,pending
+CAT0060,Kathryn,Persian,112,2.01,true,SHL03,2025-08-20,adopted
+,Kimberly,Ragdoll,85,6.05,true,SHL03,2025-08-13,pending
+CAT0062,Aaron,Maine Coon,104,6.53,true,SHL02,2025-03-15,adopted
+CAT0063,Andrew,Bengal,174,6.86,true,SHL05,2026-06-01,pending
+CAT0064,Natasha,Sphynx,1,3.98,true,SHL04,2026-03-21,pending
+CAT0065,Kyle,Maine Coon,120,4.87,true,SHL05,2024-09-02,adopted
+CAT0066,Natalie,British Shorthair,44,6.28,false,SHL05,2026-06-14,pending
+CAT0067,Christopher,Maine Coon,24,7.32,true,SHL03,2025-07-12,available
+CAT0068,Chad,Siamese,7,2.3,false,SHL05,2026-01-29,available
+CAT0069,Katie,Ragdoll,148,3.26,false,SHL04,2024-10-23,adopted
+CAT0070,Thomas,Ragdoll,177,2.04,true,SHL04,2025-08-27,available
+CAT0071,Joseph,Ragdoll,133,5.02,true,SHL01,2026-04-20,adopted
+CAT0072,Rodney,Bengal,171,5.45,false,,2024-12-23,pending
+CAT0073,Amber,Sphynx,115,7.83,false,SHL04,2026-01-06,adopted
+CAT0074,James,British Shorthair,164,3.8,false,SHL02,2025-03-06,adopted
+CAT0075,Wanda,Ragdoll,74,3.52,false,SHL03,2025-11-09,pending
+CAT0076,Samuel,Siamese,60,4.49,true,SHL02,2025-08-04,on_vacation
+CAT0077,David,Sphynx,120,4.7,true,SHL04,2025-01-02,adopted
+CAT0078,Matthew,Sphynx,179,2.13,false,SHL04,2025-09-25,available
+CAT0079,Jerry,Maine Coon,100,7.55,false,SHL05,2024-12-29,pending
+CAT0080,Chad,British Shorthair,155,7.84,false,SHL02,2025-10-26,adopted
+CAT0081,Jeremy,Persian,100,4.18,false,SHL02,2026-05-14,adopted
+CAT0082,Michele,Sphynx,137,2.18,false,SHL05,2024-09-11,pending
+CAT0083,John,Persian,165,4.79,false,SHL02,2025-11-23,available
+CAT0084,Jason,Maine Coon,55,4.96,false,SHL04,2024-10-26,adopted
+CAT0085,Selena,British Shorthair,108,3.64,true,SHL04,2025-09-12,available
+CAT0086,Thomas,Persian,90,3.46,true,SHL01,2026-02-15,available
+CAT0087,Lindsey,Siamese,6,6.04,true,SHL02,2024-12-08,adopted
+CAT0088,Collin,Sphynx,56,5.02,false,SHL03,2025-06-02,available
+CAT0089,Rodney,Ragdoll,30,7.06,true,SHL03,2025-06-28,available
+CAT0090,Jessica,Maine Coon,148,6.4,false,SHL04,2025-11-26,pending
+CAT0091,Tracey,Sphynx,177,7.4,true,SHL01,2024-10-01,pending
+CAT0092,Richard,British Shorthair,176,5.9,true,SHL05,2025-03-27,available
+CAT0093,Michelle,Bengal,170,4.41,false,SHL01,2025-01-19,adopted
+CAT0094,James,Persian,111,8.25,false,SHL02,2025-06-14,adopted
+CAT0095,Robert,Sphynx,167,3.76,false,SHL04,2025-02-10,adopted
+CAT0096,John,Sphynx,69,4.09,true,SHL01,2026-05-27,adopted
+CAT0097,Scott,Siamese,119,5.7,false,SHL03,2026-04-12,available
+CAT0098,Andrea,Maine Coon,47,5.17,false,SHL03,2024-08-27,adopted
+CAT0099,Yvette,Sphynx,180,7.72,true,SHL05,2026-03-25,available
+CAT0100,Tanya,Ragdoll,105,5.18,true,SHL04,2026-05-30,on_vacation
+CAT0101,Melinda,Persian,24,3.91,false,SHL02,2024-11-20,adopted
+CAT0102,Todd,Maine Coon,122,5.6,false,SHL04,2024-12-25,pending
+CAT0103,Richard,Maine Coon,180,4.95,false,SHL03,2024-09-02,available
+CAT0104,Nicholas,Siamese,81,2.78,true,SHL02,2026-07-12,on_vacation
+CAT0105,Joseph,Sphynx,135,5.88,true,SHL02,2026-02-15,adopted
+CAT0106,Spencer,Siamese,78,2.09,true,SHL03,2025-05-27,available
+CAT0107,Susan,Sphynx,75,6.53,true,SHL04,2026-07-19,available
+CAT0108,Angela,Sphynx,73,5.05,false,SHL03,2025-12-29,available
+CAT0109,Eric,Maine Coon,123,2.74,true,SHL04,2025-02-23,adopted
+CAT0110,Tanya,Ragdoll,-4,2.35,true,SHL05,2025-09-18,adopted
+CAT0111,Amy,British Shorthair,107,5.94,true,SHL05,2026-01-19,on_vacation
+CAT0112,Brian,Maine Coon,151,8.44,false,SHL05,2025-09-22,pending
+CAT0113,Wesley,Ragdoll,-3,8.16,true,SHL02,2026-04-06,adopted
+CAT0114,Eric,Sphynx,20,3.02,false,SHL04,2026-06-24,pending
+CAT0115,Christopher,Maine Coon,9,3.5,false,SHL04,2024-12-04,available
+CAT0116,Brooke,Maine Coon,161,5.83,true,SHL04,2025-11-27,available
+CAT0117,Joe,Ragdoll,39,7.9,true,SHL01,2024-10-17,available
+CAT0118,Pamela,Maine Coon,153,6.87,false,SHL04,2025-01-17,available
+CAT0119,Brooke,Maine Coon,180,4.62,false,SHL05,2025-10-17,pending
+CAT0120,Robert,Persian,154,2.26,false,SHL03,2025-09-21,pending
+CAT0121,Alexandra,Persian,59,8.25,true,SHL03,2026-06-05,pending
+CAT0122,James,British Shorthair,45,5.06,false,,2025-12-27,available
+CAT0123,John,British Shorthair,126,8.3,false,SHL03,2025-05-07,adopted
+CAT0124,Emily,Ragdoll,27,7.58,false,SHL04,2025-02-26,pending
+CAT0125,Leslie,Ragdoll,103,7.29,true,SHL04,2026-01-22,available
+CAT0126,Charles,Maine Coon,30,8.31,false,SHL05,2025-06-22,available
+CAT0127,Yolanda,Sphynx,119,4.69,true,SHL05,2026-07-20,adopted
+CAT0128,Charles,Bengal,161,4.87,true,SHL02,2024-12-24,adopted
+CAT0129,Joseph,Maine Coon,113,7.73,false,SHL01,2026-06-04,available
+CAT0130,Nicole,Sphynx,62,6.61,false,SHL05,2026-04-25,available
+CAT0131,Mike,Persian,58,8.45,true,SHL04,2024-11-14,available
+CAT0132,Martha,Siamese,128,8.06,false,SHL05,2025-12-18,pending
+CAT0133,Cheryl,British Shorthair,124,8.37,true,SHL04,2026-07-13,pending
+CAT0134,Destiny,Siamese,154,5.3,true,SHL01,2024-07-27,on_vacation
+CAT0135,Lisa,British Shorthair,130,3.74,true,SHL03,2025-02-25,pending
+CAT0136,Elizabeth,Sphynx,149,8.49,false,SHL02,2026-06-08,adopted
+CAT0137,Dennis,Maine Coon,86,5.59,false,SHL04,2024-10-14,adopted
+CAT0138,Daniel,Ragdoll,62,5.72,true,SHL04,2025-08-30,available
+CAT0139,Joseph,Bengal,98,4.51,true,SHL04,2025-10-07,available
+CAT0140,Jennifer,Sphynx,85,7.65,false,SHL01,2024-12-17,on_vacation
+,Cynthia,Siamese,105,7.66,true,SHL01,2025-01-30,adopted
+CAT0142,Tracy,Ragdoll,102,6.22,false,SHL05,2026-05-14,adopted
+CAT0143,Meghan,Ragdoll,125,7.67,true,SHL05,2024-09-27,available
+CAT0144,Rodney,Ragdoll,74,8.48,true,SHL04,2025-02-09,available
+CAT0145,Adam,Ragdoll,26,4.88,false,SHL01,2026-02-05,available
+CAT0146,Dana,Persian,76,4.33,false,SHL02,2025-01-29,available
+CAT0147,Joyce,Sphynx,175,7.15,true,SHL02,2025-08-29,available
+CAT0148,Ronald,Bengal,159,6.44,false,SHL05,2024-07-29,available
+CAT0149,Charles,Ragdoll,66,4.99,true,SHL04,2026-04-28,adopted
+CAT0150,Rebecca,Siamese,19,4.87,false,SHL05,2025-08-24,adopted
+CAT0151,Mary,Bengal,177,3.63,false,SHL02,2025-09-20,adopted
+CAT0152,Earl,Persian,61,4.48,false,SHL05,2024-10-23,adopted
+CAT0153,Kyle,Maine Coon,6,8.36,false,SHL03,2026-05-10,available
+CAT0154,Laura,Ragdoll,13,7.92,false,SHL03,2026-04-12,available
+CAT0155,Rachel,Maine Coon,57,6.14,false,SHL02,2024-12-22,pending
+,John,Ragdoll,166,2.26,false,SHL01,2024-10-05,pending
+CAT0157,Kimberly,Persian,76,4.12,false,SHL02,2026-04-29,available
+CAT0158,Richard,Sphynx,94,5.45,false,SHL02,2025-10-18,on_vacation
+CAT0159,Eric,Maine Coon,87,7.23,false,SHL01,2026-06-01,available
+CAT0160,Michelle,Siamese,174,6.71,false,SHL05,2026-07-05,adopted
+,Lisa,Bengal,4,3.72,true,SHL04,2026-04-27,adopted
+CAT0162,Angel,British Shorthair,164,8.11,true,SHL02,2026-01-11,adopted
+CAT0163,Martin,Sphynx,84,7.95,true,SHL01,2026-06-02,on_vacation
+CAT0164,Leah,Maine Coon,167,4.65,true,SHL01,2026-04-14,available
+CAT0165,Lisa,Bengal,30,2.63,true,SHL04,2025-02-02,adopted
+CAT0166,Kristin,Ragdoll,179,8.15,false,SHL05,2024-10-09,pending
+CAT0167,Monica,Bengal,168,2.64,false,SHL05,2026-04-10,adopted
+CAT0168,Jeffrey,Maine Coon,9,6.49,true,SHL04,2026-03-10,adopted
+CAT0169,Steven,British Shorthair,93,2.65,false,SHL05,2025-03-02,pending
+CAT0170,Laura,Bengal,71,3.23,true,SHL04,2025-01-04,available
+CAT0171,Andrew,Ragdoll,164,5.88,true,SHL01,2024-12-10,adopted
+CAT0172,Mark,Siamese,145,3.33,true,SHL05,2026-04-14,available
+CAT0173,Tammy,Siamese,85,7.03,true,SHL03,2025-02-11,available
+CAT0174,Darlene,Sphynx,65,7.19,true,SHL01,2025-05-10,available
+CAT0175,Tina,British Shorthair,-3,5.83,true,SHL02,2025-08-17,adopted
+CAT0176,Sheila,Sphynx,30,6.85,false,SHL04,2024-10-14,adopted
+CAT0177,Tara,Persian,116,5.27,true,SHL05,2024-11-29,adopted
+CAT0178,Sydney,Persian,16,8.49,false,SHL04,2025-02-01,pending
+CAT0179,Daniel,Ragdoll,114,unknown,true,SHL03,2025-06-04,pending
+CAT0180,Jessica,Maine Coon,160,6.11,false,,2025-03-08,pending
+CAT0181,Catherine,Sphynx,155,4.8,true,SHL05,2025-07-30,pending
+CAT0182,Paul,Bengal,116,7.77,false,SHL03,2025-09-16,adopted
+CAT0183,Jonathan,Ragdoll,25,4.03,false,SHL03,2025-12-22,adopted
+CAT0184,Aaron,Ragdoll,122,2.44,true,SHL01,2026-05-29,adopted
+CAT0185,Amanda,Ragdoll,96,7.28,true,,2025-12-29,pending
+CAT0186,Judy,Persian,106,4.3,false,SHL01,2025-11-24,adopted
+CAT0187,Michael,Maine Coon,27,5.76,true,SHL02,2024-09-11,pending
+CAT0188,Elizabeth,British Shorthair,28,4.28,false,SHL01,2025-03-20,adopted
+CAT0189,Lee,British Shorthair,110,7.49,true,SHL05,2026-04-02,pending
+CAT0190,Jennifer,Maine Coon,8,3.17,false,SHL03,2025-02-26,adopted
+CAT0191,Kyle,British Shorthair,-2,5.68,false,SHL01,2025-05-16,available
+CAT0192,Richard,Siamese,97,4.73,false,SHL02,2025-02-23,adopted
+CAT0193,David,Maine Coon,146,5.88,true,SHL02,2025-05-25,available
+CAT0194,Shelby,Persian,173,2.53,false,SHL04,2025-11-29,adopted
+CAT0195,Raven,Bengal,70,3.4,true,SHL03,2025-10-14,adopted
+CAT0196,Kevin,Ragdoll,174,5.86,false,SHL01,2025-08-26,on_vacation
+CAT0197,Aaron,Persian,2,3.33,true,SHL02,2025-02-16,adopted
+CAT0198,Russell,Persian,2,5.23,false,SHL02,2025-09-18,available
+CAT0199,Diana,Ragdoll,59,5.25,false,SHL01,2025-06-26,adopted
