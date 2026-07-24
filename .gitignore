@@ -43,7 +43,6 @@ spark-warehouse/
 metastore_db/
 derby.log
 *.crc
-_delta_log/
 
 # ---- vector store (rebuilt each run) ----
 chroma_cats/
