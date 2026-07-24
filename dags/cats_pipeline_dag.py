@@ -22,6 +22,7 @@ from __future__ import annotations
 import json
 import os
 import re
+import shutil
 import uuid
 from datetime import datetime, timezone
 from functools import wraps
@@ -84,6 +85,18 @@ def traced(job_name, inputs=(), outputs=()):
 # ------------------------------------------------------------------ helpers
 def _arrow(df):
     return pa.Table.from_pandas(df, preserve_index=False)
+
+
+def _write_delta(path, df):
+    """
+    كتابة جدول Delta بشكل حتمي: نحذف المسار أولاً ثم نكتب من جديد.
+    هذا يجعل التشغيل قابلاً للتكرار ويتفادى أي تعارض schema مع جولة سابقة،
+    ويغنينا عن schema_mode الذي يختلف سلوكه بين نسخ deltalake.
+    """
+    from deltalake import write_deltalake
+    shutil.rmtree(path, ignore_errors=True)
+    os.makedirs(os.path.dirname(path.rstrip("/")), exist_ok=True)
+    write_deltalake(path, _arrow(df), mode="overwrite")
 
 
 def _artifact(name):
@@ -231,14 +244,13 @@ def task_ingestion(**_):
 @traced("bronze_layer", inputs=["kafka.cats-raw"], outputs=["delta.bronze_cats"])
 def task_bronze(**_):
     """Write the raw feed to Delta, untouched — malformed rows included."""
-    from deltalake import write_deltalake, DeltaTable
+    from deltalake import DeltaTable
 
     raw = pd.read_csv(CFG["raw_csv"]).astype(str)
     raw["ingested_at"] = datetime.now(timezone.utc).isoformat()
     raw["source"] = f"kafka.{CFG['raw_topic']}"
 
-    write_deltalake(CFG["dag_bronze"], _arrow(raw), mode="overwrite",
-                    schema_mode="overwrite")
+    _write_delta(CFG["dag_bronze"], raw)
 
     written = DeltaTable(CFG["dag_bronze"]).to_pandas()
     print(f"[bronze] wrote {len(written)} rows, {len(written.columns)} columns "
@@ -258,7 +270,7 @@ def task_silver_merge(**_):
     (upsert) keyed on the business key cat_id. The merge metrics returned by
     Delta itself are the proof that rows were updated in place, not appended.
     """
-    from deltalake import write_deltalake, DeltaTable
+    from deltalake import DeltaTable
 
     with open(_artifact("valid_records.json"), encoding="utf-8") as f:
         valid = json.load(f)
@@ -269,8 +281,7 @@ def task_silver_merge(**_):
     silver["is_vaccinated"] = silver["is_vaccinated"].astype(bool)
     silver["intake_date"] = pd.to_datetime(silver["intake_date"]).dt.date.astype(str)
 
-    write_deltalake(CFG["dag_silver"], _arrow(silver), mode="overwrite",
-                    schema_mode="overwrite")
+    _write_delta(CFG["dag_silver"], silver)
     base_rows = len(DeltaTable(CFG["dag_silver"]).to_pandas())
     print(f"[silver_merge] base Silver: {base_rows} rows")
 
@@ -383,7 +394,7 @@ def task_quality_gate(**_):
         outputs=["delta.gold_cats_by_breed", "delta.gold_cats_by_shelter"])
 def task_gold(**_):
     """Aggregate Silver into Gold. Gold must summarise, never copy."""
-    from deltalake import write_deltalake, DeltaTable
+    from deltalake import DeltaTable
 
     silver = DeltaTable(CFG["dag_silver"]).to_pandas()
 
@@ -415,10 +426,8 @@ def task_gold(**_):
         .reset_index()
     )
 
-    write_deltalake(CFG["dag_gold_breed"], _arrow(by_breed), mode="overwrite",
-                    schema_mode="overwrite")
-    write_deltalake(CFG["dag_gold_shelter"], _arrow(by_shelter), mode="overwrite",
-                    schema_mode="overwrite")
+    _write_delta(CFG["dag_gold_breed"], by_breed)
+    _write_delta(CFG["dag_gold_shelter"], by_shelter)
 
     print(f"[gold] silver={len(silver)} -> by_breed={len(by_breed)} rows, "
           f"by_shelter={len(by_shelter)} rows")
